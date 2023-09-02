@@ -1,6 +1,4 @@
-<?php
-    include 'nav.php';
-?>
+
 <form method="post" action="store.php" style="padding: 20px;">
 <div style="padding:10px;">
     <label for="name">Name</label>
@@ -17,10 +15,10 @@
 </div>
 </div>
 <div style="padding:10px;">
-    <label for="level">Level</label>
+    <label for="level">Index Number</label>
     <div>
 
-    <input id="level" type="text" name="level" placeholder="Level" />
+    <input id="level" type="text" name="index" placeholder="Index Number" />
 </div>
 </div>
 <div>

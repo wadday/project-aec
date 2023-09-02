@@ -1,5 +1,5 @@
 <?php
-include 'nav.php';
+
 include 'config.php';
 
 $sql = "SELECT * FROM students";
